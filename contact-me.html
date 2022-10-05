@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional address</p>
+    <p>3474075548</p>
+    <p>shawnpei0313@gmail.com</p>
+  <hr>
+  <!--action 在点击submit之后，把用户带回了index.html-->
+  <!--把action里的内容换成mailto，就可以打开用户电脑上的邮件客户端 -->
+    <form action="mailto:shawnpei0313@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="" >
+    </form>
+
+  </body>
+</html>
